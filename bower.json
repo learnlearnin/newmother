@@ -1,0 +1,26 @@
+{
+  "name": "New Mother",
+  "version": "0.0.1",
+  "authors": [
+    "Akshay S Dinesh <asdofindia@gmail.com>"
+  ],
+  "description": "An app to keep new mothers ticking",
+  "keywords": [
+    "post",
+    "partum",
+    "purpureum"
+  ],
+  "license": "MIT",
+  "homepage": "http://learnlearn.in/newmother/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "smoothstate": "~0.7.2"
+  }
+}
