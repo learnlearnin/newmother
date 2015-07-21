@@ -1,26 +1,22 @@
 {
-  "name": "New Mother",
-  "version": "0.0.1",
-  "authors": [
-    "Akshay S Dinesh <asdofindia@gmail.com>"
-  ],
-  "description": "An app to keep new mothers ticking",
-  "keywords": [
-    "post",
-    "partum",
-    "purpureum"
-  ],
-  "license": "MIT",
-  "homepage": "http://learnlearn.in/newmother/",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "name": "new-mother",
+  "private": true,
   "dependencies": {
-    "jquery": "~2.1.4",
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1",
     "smoothstate": "~0.7.2"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
   }
 }
